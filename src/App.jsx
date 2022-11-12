@@ -1,6 +1,11 @@
+import { Canvas } from '@react-three/fiber'
+import { Sky } from '@react-three/drei'
+
 function App () {
   return (
-    <h1>Hello</h1>
+    <Canvas>
+      <Sky />
+    </Canvas>
   )
 }
 
